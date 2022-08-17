@@ -1,0 +1,209 @@
+.container {
+  width: 81%;
+  margin: 8rem auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+}
+
+.main h2 {
+  font-size: 5rem;
+  margin: 0;
+  filter: drop-shadow(0 0 1rem black);
+
+  font-family: "Roboto Condensed", Verdana;
+}
+
+.authorDate {
+  font-size: 1.8rem;
+  opacity: 0.6;
+  margin-bottom: 4rem;
+}
+
+.authorDate span {
+  opacity: 0.6;
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.imgCard {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgCard a {
+  color: rgb(97, 219, 251);
+  opacity: 0.5;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.imgCard a:hover {
+  opacity: 1;
+}
+
+.imgCard img {
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0);
+}
+.container p {
+  line-height: 3rem;
+}
+
+.icons {
+  width: 30%;
+  margin: 4rem auto;
+  /* padding: 1rem 0rem; */
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  border: 0.1rem solid rgb(97, 219, 251);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0);
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  padding: 1rem 0;
+  color: white;
+  border: none;
+  text-decoration: none;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.icon:hover {
+  transform: translateY(-4px);
+  background-color: #3c3c3c;
+  border-radius: 0.5rem;
+}
+
+.icon:active {
+  transform: translateY(0);
+}
+
+.icon svg {
+  margin-right: 1rem;
+  color: rgba(97, 219, 251, 0.4);
+  transition: all 0.2s;
+}
+
+.icon:hover svg {
+  color: rgba(97, 219, 251, 0.7);
+}
+
+.icon:active svg {
+  color: rgba(97, 219, 251, 1);
+}
+
+.comment_form {
+  width: 50%;
+  margin: 5rem auto;
+  border: 2px solid rgba(97, 219, 251, 1);
+  padding: 2rem 4rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0);
+}
+
+.comment_form > div {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.comment_form label {
+  margin: 1rem 0;
+}
+
+.comment_form input {
+  background-color: #3c3c3c;
+  padding: 1.5rem 2rem;
+  border: 1px solid rgb(97, 219, 251);
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.comment_form h3 {
+  text-align: center;
+}
+
+.comment_form button {
+  width: 30%;
+  margin: 2rem 0;
+  padding: 1.5rem 0;
+  font-size: 2rem;
+  background-color: rgba(97, 219, 251, 0.4);
+  border: 2px solid rgba(97, 219, 251);
+  color: white;
+  border-radius: 1rem;
+  transition: all 0.2s;
+}
+
+.comment_form button:hover {
+  background-color: rgba(97, 219, 251, 1);
+  color: black;
+}
+
+.comments {
+  margin: 0 auto;
+  margin-top: 10rem;
+  border: 2px solid rgb(97, 219, 251);
+  border-radius: 1rem;
+  padding: 2rem 5rem;
+  box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0);
+  width: 70%;
+}
+
+.comments ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.comments h2 {
+  width: max-content;
+  border-bottom: 2px solid rgb(97, 219, 251);
+}
+
+.comments > li {
+  margin: 4rem 0;
+  font-size: 1.6rem;
+}
+
+.comments h3 {
+  opacity: 0.6;
+  text-transform: capitalize;
+  margin-right: 2rem;
+}
+.comments > div p {
+  opacity: 0.8;
+}
+
+.list_item {
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  margin: 3rem 0;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 0.5rem 0.2rem rgba(0, 0, 0);
+}
+
+.list_item h3 {
+  /* border: 2px solid rgb(97, 219, 251); */
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  background-color: black;
+  font-family: "Roboto Condensed";
+}

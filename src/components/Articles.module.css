@@ -1,0 +1,15 @@
+.articles_container {
+  list-style: none;
+  margin: 16rem 0 8rem 0;
+  padding: 0;
+}
+
+.articles_container h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 200;
+  font-family: "Roboto Condensed", Verdana;
+  /* font-style: italic; */
+  /* text-decoration: underline; */
+  filter: drop-shadow(0 0 1rem black);
+}

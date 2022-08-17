@@ -1,0 +1,141 @@
+.main_nav {
+  display: flex;
+  margin: 0 auto;
+  padding: 1.6rem 0;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 2rem;
+  background-color: #050505;
+  box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0);
+}
+
+.logo {
+  display: flex;
+  /* background-color: #61dbfb; */
+  align-items: center;
+  margin-left: 10%;
+}
+
+.logo img {
+  height: 10rem;
+  width: 10rem;
+  margin-right: 4rem;
+  border-radius: 50%;
+}
+
+.logo a {
+  font-family: "Fjalla One", Verdana;
+  color: white;
+  /* font-weight: 400; */
+  display: inline-block;
+  text-decoration: none;
+}
+
+.main_nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  margin-right: 10%;
+}
+
+.main_nav ul a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.5;
+  transition: all 0.3s;
+  font-size: 2rem;
+}
+
+.main_nav ul a:hover,
+.main_nav ul a:active {
+  color: #61dbfb;
+  opacity: 1;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0c0c0c;
+  box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0);
+  font-family: "Roboto Condensed", Verdana;
+}
+
+.footer_logo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer_logo a {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+
+.footer_logo a img {
+  height: 4rem;
+  width: 4rem;
+  margin-right: 2rem;
+  border-radius: 50%;
+}
+
+.footer .built {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.footer .built img {
+  width: 3rem;
+  margin: 1rem;
+  animation: rotation 3s infinite linear;
+  filter: drop-shadow(0 0.2rem 1rem black);
+  box-shadow: 0 0 1rem rgba(0, 0, 0);
+  border-radius: 50%;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2rem;
+  padding: 0;
+}
+
+.footer ul a,
+.footer .copy a {
+  text-decoration: none;
+  color: white;
+  margin: 0 1.4rem;
+  font-family: "Roboto Condensed", Verdana;
+  font-size: 2rem;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+
+.footer_logo ul a:hover,
+.footer .copy a:hover {
+  color: #61dbfb;
+  opacity: 1;
+}
+
+.footer .copy,
+.footer .copy a {
+  margin: 0;
+  font-size: 2rem;
+}
+
+@keyframes rotation {
+  100% {
+    transform: rotate(360deg);
+  }
+}

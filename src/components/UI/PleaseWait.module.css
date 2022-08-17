@@ -1,0 +1,16 @@
+.wait {
+  height: 50vh;
+  background-color: transparent;
+  margin: 4rem auto;
+  font-family: "Roboto Condensed", Verdana;
+  font-size: 4rem;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wait > div {
+  margin: 1rem 0;
+}
