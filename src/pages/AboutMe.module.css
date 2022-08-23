@@ -1,9 +1,26 @@
 .abt_me {
   width: 80%;
   margin: 0 auto;
-  font-size: 3.2rem;
+  font-size: 3rem;
 }
 
 .abt_me p {
   font-size: 2rem;
+  line-height: 3rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.abt_me p span {
+  font-style: italic;
+}
+
+.abt_me a {
+  text-decoration: none;
+  color: rgba(97, 219, 251);
+  margin: 0 1rem;
+}
+
+.abt_me a:hover {
+  text-decoration: underline;
 }

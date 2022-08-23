@@ -28,3 +28,33 @@ h2,
 h3 {
   font-family: "Roboto Condensed", Verdana, sans-serif;
 }
+
+@media (max-width: 1440px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 42%;
+  }
+}
+
+@media (max-width: 512px) {
+  html {
+    font-size: 38%;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 32%;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 25%;
+  }
+}

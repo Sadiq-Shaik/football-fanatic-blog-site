@@ -63,3 +63,19 @@
   background-color: rgba(97, 219, 251, 1);
   color: black;
 }
+
+@media (max-width: 1024px) {
+  .contact {
+    min-height: 80vh;
+  }
+
+  .contact_form {
+    width: 100%;
+    /* margin: 5rem auto;
+    border: 2px solid rgb(97, 219, 251);
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.8);
+    font-size: 2rem;
+    padding: 3rem 6rem; */
+  }
+}

@@ -48,3 +48,35 @@
   filter: drop-shadow(0 0 1rem black);
   margin-top: 8rem;
 }
+
+@media (max-width: 1024px) {
+  .trending a:first-child h3 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .trending {
+    grid-template-rows: repeat(2, 25rem);
+    gap: 3rem;
+  }
+
+  .trending a:first-child h3 {
+    font-size: 3.4rem;
+  }
+
+  .trending a:first-child p {
+    font-size: 1.8rem;
+  }
+
+  .trending a:first-child p span {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .trending {
+    grid-template-rows: repeat(2, 20rem);
+    gap: 3rem;
+  }
+}

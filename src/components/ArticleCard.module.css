@@ -66,3 +66,40 @@
   margin-left: 1rem;
   color: rgb(124, 124, 124);
 }
+
+@media (max-width: 1024px) {
+  .content h3 {
+    font-size: 3.5rem;
+  }
+  .content p {
+    font-size: 1.8rem;
+  }
+  .image img {
+    width: 60rem;
+    height: 35rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .list_item {
+    margin: 5rem 0;
+  }
+
+  .list_item:first-of-type {
+    margin: 6rem 0;
+  }
+
+  .list_item > div {
+    height: 60rem;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .content {
+    margin-right: 0;
+    text-align: justify;
+    text-justify: inter-word;
+    /* justify-content: center; */
+  }
+}

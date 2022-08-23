@@ -33,7 +33,6 @@
 
 .tr_card h3 {
   font-size: 2.8rem;
-
   margin: 1rem 0;
   filter: drop-shadow(0 0 1rem black);
   font-family: "Roboto Condensed";
@@ -51,4 +50,28 @@
   color: white;
   font-size: 1.2rem;
   filter: drop-shadow(0 0 1rem black);
+}
+
+@media (max-width: 1024px) {
+  .tr_card h3 {
+    font-size: 2.4rem;
+  }
+
+  .tr_card {
+    background-position: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .tr_card h3 {
+    font-size: 2rem;
+  }
+
+  .tr_card p {
+    font-size: 1.2rem;
+  }
+
+  .tr_card p span {
+    margin-left: 0.4rem;
+  }
 }
