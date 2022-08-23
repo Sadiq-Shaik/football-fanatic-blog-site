@@ -68,6 +68,12 @@
 }
 
 @media (max-width: 1024px) {
+  .content {
+    margin-right: 0;
+    text-align: justify;
+    text-justify: inter-word;
+    /* justify-content: center; */
+  }
   .content h3 {
     font-size: 3.5rem;
   }
@@ -99,12 +105,11 @@
     justify-content: space-around;
   } */
 
-  .content {
+  /* .content {
     margin-right: 0;
     text-align: justify;
     text-justify: inter-word;
-    /* justify-content: center; */
-  }
+  } */
 }
 
 @media (max-width: 480px) {

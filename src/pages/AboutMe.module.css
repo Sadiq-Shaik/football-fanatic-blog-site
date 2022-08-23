@@ -25,6 +25,12 @@
   text-decoration: underline;
 }
 
+@media (max-width: 1024px) {
+  .abt_me {
+    min-height: 80vh;
+  }
+}
+
 @media (max-width: 480px) {
   .abt_me {
     width: 100%;

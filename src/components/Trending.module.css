@@ -22,16 +22,16 @@
 }
 
 .trending a:first-child h3 {
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: "Roboto Condensed";
 }
 
 .trending a:first-child p {
-  font-size: 2.6rem;
+  font-size: 2rem;
 }
 
 .trending a:first-child p span {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .trending a:first-child > div > div {
