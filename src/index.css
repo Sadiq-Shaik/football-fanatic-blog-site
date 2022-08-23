@@ -53,8 +53,8 @@ h3 {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 365px) {
   html {
-    font-size: 25%;
+    font-size: 28%;
   }
 }

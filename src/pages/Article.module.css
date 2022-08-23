@@ -252,3 +252,9 @@
     width: 100%;
   }
 }
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+}

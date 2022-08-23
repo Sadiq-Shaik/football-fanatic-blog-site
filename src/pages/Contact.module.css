@@ -79,3 +79,14 @@
     padding: 3rem 6rem; */
   }
 }
+
+@media (max-width: 480px) {
+  .contact h2 {
+    font-size: 3rem;
+  }
+
+  .contact_form {
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+  }
+}

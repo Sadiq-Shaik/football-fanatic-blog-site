@@ -24,3 +24,9 @@
 .abt_me a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 480px) {
+  .abt_me {
+    width: 100%;
+  }
+}

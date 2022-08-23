@@ -64,6 +64,10 @@
   font-family: "Roboto Condensed", Verdana;
 }
 
+.footer h2 {
+  font-family: "Fjalla One", Verdana;
+}
+
 .footer_logo {
   width: 100%;
   display: flex;
@@ -153,5 +157,9 @@
 
   .main_nav ul a {
     font-size: 1.8rem;
+  }
+
+  .footer_logo h2 {
+    font-size: 2rem;
   }
 }
