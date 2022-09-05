@@ -31,7 +31,7 @@ function Footer(props) {
       </div>
       <div className={props.className.copy}>
         <p>
-          &copy; Designed & Developed by <Link to="/aboutme">Sadiq Shaik</Link>
+          &copy; 2022 <Link to="/aboutme">Sadiq Shaik</Link>
         </p>
       </div>
     </footer>
