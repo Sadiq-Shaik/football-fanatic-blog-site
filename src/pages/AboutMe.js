@@ -7,7 +7,7 @@ function AboutMe(props) {
       <h3>
         Hi, I'm <span>Sadiq Shaik</span>
       </h3>
-      <h3>Web Developer</h3>
+      <h3>Frontend Developer</h3>
       <p>
         Born in mid 90's in the historical city of Rajamundry, Andhra Pradesh
         and grew up ashtonished watching the technological development from CRT
@@ -27,8 +27,8 @@ function AboutMe(props) {
       <p>
         And what better way than learning the most popular JavaScript library,
         ReactJS followed by TypeScript and NextJS framework. I have learnt
-        JavaScript, ReactJS, Git version control, HTML 5 CSS 3 from the most
-        instructors on the whole Internet
+        JavaScript, ReactJS, Git version control, HTML 5 CSS 3 from some of the
+        best instructors on the whole Internet
         <a
           href="https://www.udemy.com/user/coltsteele/"
           target="_blank"
@@ -36,7 +36,6 @@ function AboutMe(props) {
         >
           Colt Steele
         </a>
-        (Basic HTML CSS JavaScript NodeJS Express MongoDB),
         <a
           href="https://www.udemy.com/user/jonasschmedtmann/"
           target="_blank"
@@ -44,7 +43,6 @@ function AboutMe(props) {
         >
           Jonas Schmedtmann
         </a>
-        (Advanced HTML (5.0) CSS (3.0) SASS (SCSS) JavaScript (ES6+)),
         <a
           href="https://www.udemy.com/user/maximilian-schwarzmuller/"
           target="_blank"
@@ -52,25 +50,26 @@ function AboutMe(props) {
         >
           Maximilian Schwarzmüller
         </a>
-        (ReactJS with hooks, react-router, redux, basics of NextJS)
-        <a href="/" target="_blank">
-          Read more about me, WEBSITE COMING SOON
-        </a>
       </p>
       <p>
-        This webiste is made possible by Firebase by Google using its Realtime
-        Database and Hosting Service which is priovided for free and built with
-        create react-app by Facebook, react-router-dom by Remix. Souce code is
-        available on GitHub here:
+        This webiste is made possible by Firebase using its Realtime Database
+        and Hosting Service which is priovided for free and built with create
+        react-app by Facebook, react-router-dom by Remix. Souce code is
+        available on
         <a
           href="https://github.com/Sadiq-Shaik/football-fanatic-blog-site"
           target="_blank"
           rel="noreferrer"
         >
-          Repo
+          my GitHub repository.
         </a>
         For any improvements and suggestions, you can
         <a href="/contact">cantact me.</a>
+      </p>
+      <p>
+        <a href="https://sadiqshaik.com" target="_blank" rel="noreferrer">
+          Read more about me
+        </a>
       </p>
       <GoToTop />
     </div>

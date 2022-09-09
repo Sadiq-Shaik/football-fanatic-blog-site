@@ -15,7 +15,7 @@ function Home(props) {
   //   return articleCtx.articles[key];
   // });
 
-  console.log(articleCtx.articles);
+  // console.log(articleCtx.articles);
 
   if (articleCtx.articles.length <= 1) {
     return <PleaseWait />;

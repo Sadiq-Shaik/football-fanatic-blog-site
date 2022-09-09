@@ -235,7 +235,7 @@ const ArticleProvider = (props) => {
 
     const res = writeNewPost(art);
 
-    console.log(res);
+    // console.log(res);
 
     res.then(() => {
       navigate(`/article/${newPostKey}`);
@@ -249,7 +249,7 @@ const ArticleProvider = (props) => {
 
   const hitsIncrementHandler = (art) => {
     //
-    console.log(art.id);
+    // console.log(art.id);
 
     function sendAHit(postId, data) {
       const db = getDatabase();
@@ -265,7 +265,7 @@ const ArticleProvider = (props) => {
     const res = sendAHit(art.id, art.hits++);
 
     res.then(() => {
-      console.log("Hits sent");
+      // console.log("Hits sent");
     });
   };
 
@@ -279,7 +279,7 @@ const ArticleProvider = (props) => {
   const addCommentHandler = (commentData) => {
     // add a comment to DB
 
-    console.log(commentData);
+    // console.log(commentData);
 
     // dispatchAction({ type: "ADD_COMMENT", payload: data });
 
@@ -290,7 +290,7 @@ const ArticleProvider = (props) => {
     function sendCommentData(postId, data) {
       const db = getDatabase();
 
-      console.log(postId);
+      // console.log(postId);
 
       // Write the new post's data simultaneously in the posts list and the user's post list.
       const updates = {};

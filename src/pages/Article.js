@@ -115,9 +115,9 @@ function Article(props) {
         </p>
         <Card className={classes.imgCard}>
           <img src={articleMain.images[0]} alt="main-img" />
-          <p>
+          {/* <p>
             Image Source: <a href={articleMain.images[0]}> Link</a>
-          </p>
+          </p> */}
         </Card>
         <div>
           {paras.map((para, i) => (
@@ -125,7 +125,7 @@ function Article(props) {
           ))}
         </div>
       </Card>
-      <Card className={classes.icons}>
+      {/* <Card className={classes.icons}>
         <button className={classes.icon} onClick={likeCountHandler}>
           <MdThumbUp /> {articleMain.likes}
         </button>
@@ -136,7 +136,7 @@ function Article(props) {
           <MdShare />
           Share
         </button>
-      </Card>
+      </Card> */}
       <Card>
         <form onSubmit={commentSubmitHandler} className={classes.comment_form}>
           <h3>Leave a comment!</h3>
