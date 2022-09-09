@@ -7,7 +7,7 @@ function Contact(props) {
       <h2>Contact me!</h2>
       <form
         className={classes.contact_form}
-        action="https://formsubmit.co/sadiq.sio.751@gmail.com"
+        action="https://formsubmit.co/sadiqshaik@protonmail.com"
         method="POST"
       >
         <div>

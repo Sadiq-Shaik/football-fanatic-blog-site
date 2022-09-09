@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 // import Layout from "../components/Layout/Layout";
 import Card from "../components/UI/Card";
 import ArticleContext from "../store/blog-article-context";
-import { MdThumbUp, MdComment, MdShare } from "react-icons/md";
+// import { MdThumbUp, MdComment, MdShare } from "react-icons/md";
 import GoToTop from "../components/GoToTop";
 
 import classes from "./Article.module.css";
