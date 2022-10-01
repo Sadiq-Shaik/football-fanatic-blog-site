@@ -34,21 +34,21 @@ function AboutMe(props) {
           target="_blank"
           rel="noreferrer"
         >
-          Colt Steele
+          &nbsp;Colt Steele
         </a>
         <a
           href="https://www.udemy.com/user/jonasschmedtmann/"
           target="_blank"
           rel="noreferrer"
         >
-          Jonas Schmedtmann
+          &nbsp;Jonas Schmedtmann
         </a>
         <a
           href="https://www.udemy.com/user/maximilian-schwarzmuller/"
           target="_blank"
           rel="noreferrer"
         >
-          Maximilian Schwarzmüller
+          &nbsp;Maximilian Schwarzmüller
         </a>
       </p>
       <p>
@@ -61,10 +61,10 @@ function AboutMe(props) {
           target="_blank"
           rel="noreferrer"
         >
-          my GitHub repository.
+          &nbsp;my GitHub repository.
         </a>
-        For any improvements and suggestions, you can
-        <a href="/contact">cantact me.</a>
+        &nbsp;For any improvements and suggestions, you can
+        <a href="/contact">&nbsp;cantact me.</a>
       </p>
       <p>
         <a href="https://sadiqshaik.com" target="_blank" rel="noreferrer">
